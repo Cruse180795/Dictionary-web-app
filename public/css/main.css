@@ -1,0 +1,42 @@
+:root{
+
+    /*Font Families*/
+    --ff-lora-serif: 'Lora', serif;
+    --ff-inter-sans: 'Inter', sans-serif;
+    --ff-inconsolata-mono: 'Inconsolata', monospace;
+
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-700-italic: 700 italic;
+
+
+    /*Colors*/
+
+    --dark-1: hsl(0, 0%, 2%);
+    --dark-2: hsl(0, 0%, 12%);
+    --dark-3: hsl(0, 0%, 18%);
+    --dark-4: hsl(0 , 0%, 23%);
+
+    --gray-1: hsl(0, 0%, 51%);
+    --gray-2: hsl(0, 0%, 91%);
+    --gray-3: hsl(0, 0%, 96%);
+
+    --white: hsl(0, 0%, 100%);
+
+    --pink: hsl(274, 82%, 60%);
+    --orange: hsl(0, 100%, 66%);
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: var(--ff-lora-serif);
+    font-weight: var(--fw-400);
+}
